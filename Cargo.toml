@@ -1,0 +1,10 @@
+[package]
+name = "taproot_sighash"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hex = "0.4.3"
+base64 = "0.22.0"
+bitcoin = { version = "0.32.5", features = ["rand"] }
+bitcoin_hashes = "0.11"
